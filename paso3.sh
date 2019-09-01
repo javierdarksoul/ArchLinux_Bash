@@ -12,7 +12,8 @@ sudo nmcli dev wifi connect $SSID password $WPASS
 sudo pacman -Syyu
 sudo pacman -S xorg-server xorg-xinit
 sudo pacman -S mesa
-sudo pacman –S gnome gnome–extra
+sudo pacman –S gnome
+sudo pacman –S gnome-extra
 sudo pacman -S gdm
 sudo systemctl enable gdm.service
 echo "Reiniciando en 5 seg"
