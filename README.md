@@ -10,5 +10,5 @@ script para instalar Arch Linux
 ```sh
 $ git clone https://github.com/javierdarksoul/ArchLinux_Bash.git
 ```
-
+* Abrir "config.sh" con un editor de texto y 
 * Copiar en la raiz del dispositivo USB los 3 archivos bash
