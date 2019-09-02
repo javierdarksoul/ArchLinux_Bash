@@ -1,9 +1,5 @@
 #!/bin/bash
 sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-echo "Server = http://mirror.ufro.cl/archlinux/$repo/os/$arch" > /etc/pacman.d/mirrorlist
-echo "Server = http://linorg.usp.br/archlinux/$repo/os/$arch" >> /etc/pacman.d/mirrorlist
-echo "Server = http://mirrors.evowise.com/archlinux/$repo/os/$arch" >> /etc/pacman.d/mirrorlist
-cat /etc/pacman.d/mirrorlist.backup >> /etc/pacman.d/mirrorlist
 sudo systemctl start NetworkManager.service
 sudo systemctl enable NetworkManager.service
 read -p "Ingrese SSID: " SSID
