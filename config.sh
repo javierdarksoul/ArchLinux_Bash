@@ -1,0 +1,7 @@
+#!/bin/bash
+NOMBRE_DOM="TU_NOMBRE_DOMINIO"
+USERNAME="TU_NOMBRE_USUARIO"
+PASS=Tu_password
+ZONA=es_CL.UTF-8
+ZONAA="es_CL.UTF-8 UTF-8" 
+KEY=la-latin1
