@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 sudo systemctl start NetworkManager.service
 sudo systemctl enable NetworkManager.service
 read -p "Ingrese SSID: " SSID
