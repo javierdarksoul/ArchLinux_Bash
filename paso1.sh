@@ -18,6 +18,7 @@ pacstrap /mnt netctl wpa_supplicant dialog grub
 genfstab -pU /mnt >> /mnt/etc/fstab
 cp /run/archiso/bootmnt/paso2.sh /mnt
 cp /run/archiso/bootmnt/paso3.sh /mnt
+cp /run/archiso/bootmnt/config.sh /mnt
 ( echo "sh paso2.sh" ) | arch-chroot /mnt
 umount -R /mnt
 echo "Reiniciando en 5 segundos..."
