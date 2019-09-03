@@ -26,3 +26,4 @@ $ git clone https://github.com/javierdarksoul/ArchLinux_Bash.git
 ```sh
  $ sh /run/arch/bootmgr/paso1.sh
 ```
+* se abrira una ventana de wifi-menu, conectese a la red wi-fi preferida.
