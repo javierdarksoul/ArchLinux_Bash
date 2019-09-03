@@ -19,3 +19,10 @@ $ git clone https://github.com/javierdarksoul/ArchLinux_Bash.git
   
 * Copiar en la raiz del dispositivo USB los 4 archivos bash descargados del repositorio.
 
+## Instalación
+
+* Una vez arrancado arch desde el dispositivo USB, escribir el siguiente comando
+
+```sh
+ $ sh /run/arch/bootmgr/paso1.sh
+```
