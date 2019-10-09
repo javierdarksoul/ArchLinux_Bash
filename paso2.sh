@@ -9,10 +9,10 @@ hwclock -w
 echo KEYMAP=${KEY} > /etc/vconsole.conf
 grub-install --efi-directory=/boot/efi --bootloader-id='Arch Linux' --target=x86_64-efi
 grub-mkconfig -o /boot/grub/grub.cfg
-useradd -m ${USER}
+useradd -m ${USERNAME}
 usermod -G wheel ${USERNAME}
 echo "root ALL=(ALL) ALL" > /etc/sudoers
 echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
-( echo ${PASS}; sleep 1; echo ${PASS} ) | passwd ${USER}
+( echo ${PASS}; sleep 1; echo ${PASS} ) | passwd ${USERNAME}
 sleep 2
 ( echo ${PASS}; sleep 1; echo ${PASS} ) | passwd
